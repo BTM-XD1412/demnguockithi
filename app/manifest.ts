@@ -14,33 +14,16 @@ export default function manifest(): MetadataRoute.Manifest {
     categories: ["education", "utilities"],
     icons: [
       {
-        src: "/favicon/icon-192x192.png",
+        src: "/favicon/android-icon-192x192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/favicon/icon-192x192.png",
+        src: "/favicon/android-icon-192x192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "maskable",
-      },
-      {
-        src: "/favicon/icon-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-        purpose: "any",
-      },
-      {
-        src: "/favicon/icon-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-        purpose: "maskable",
-      },
-      {
-        src: "/favicon/apple-icon-180x180.png",
-        sizes: "180x180",
-        type: "image/png",
       },
       {
         src: "/favicon/android-icon-144x144.png",
@@ -53,8 +36,28 @@ export default function manifest(): MetadataRoute.Manifest {
         type: "image/png",
       },
       {
+        src: "/favicon/android-icon-72x72.png",
+        sizes: "72x72",
+        type: "image/png",
+      },
+      {
         src: "/favicon/android-icon-48x48.png",
         sizes: "48x48",
+        type: "image/png",
+      },
+      {
+        src: "/favicon/android-icon-36x36.png",
+        sizes: "36x36",
+        type: "image/png",
+      },
+      {
+        src: "/favicon/apple-icon-180x180.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+      {
+        src: "/favicon/apple-icon.png",
+        sizes: "192x192",
         type: "image/png",
       },
     ],
