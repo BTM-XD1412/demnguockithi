@@ -1,7 +1,7 @@
-export const EXAM_TARGET_DATE = "2027-06-12T00:00:00+07:00";
+export const EXAM_TARGET_DATE = "2027-06-11T00:00:00+07:00";
 export const EXAM_YEAR = 2027;
 export const EXAM_TITLE = "Kỳ thi tốt nghiệp THPT 2027";
-export const EXAM_DATE_DISPLAY = "12/06/2027";
+export const EXAM_DATE_DISPLAY = "11/06/2027";
 export const IS_ESTIMATED = true;
 
 export const SITE_METADATA = {

@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Info, ExternalLink, Mail, ShieldAlert, Sparkles } from "lucide-react";
-import { SITE_METADATA } from "@/lib/constants";
+import { SITE_METADATA, EXAM_DATE_DISPLAY } from "@/lib/constants";
 
 interface InfoDialogProps {
   children?: React.ReactNode;
@@ -50,7 +50,7 @@ export function InfoDialog({ children }: InfoDialogProps) {
               <span>Thời gian thi dự kiến</span>
             </div>
             <p className="text-xs leading-relaxed pl-6">
-              Thời gian thi hiện tại chỉ là dự đoán (dự kiến ngày 12/06/2027), chưa có lịch thi chính thức từ Bộ Giáo dục & Đào tạo. Thông tin sẽ được cập nhật ngay khi có công bố chính thức.
+              Thời gian thi hiện tại chỉ là dự đoán (dự kiến ngày {EXAM_DATE_DISPLAY}), chưa có lịch thi chính thức từ Bộ Giáo dục & Đào tạo. Thông tin sẽ được cập nhật ngay khi có công bố chính thức.
             </p>
           </div>
 
@@ -63,18 +63,6 @@ export function InfoDialog({ children }: InfoDialogProps) {
             </div>
             <p className="text-xs leading-relaxed pl-6">
               Trang web tổng hợp các câu châm ngôn, danh ngôn tạo động lực học tập từ nhiều nguồn tác giả và tác phẩm kinh điển.
-            </p>
-          </div>
-
-          <Separator />
-
-          <div className="space-y-1">
-            <div className="flex items-center gap-2 font-medium text-foreground">
-              <ExternalLink className="h-4 w-4 text-primary shrink-0" />
-              <span>Nguồn hình ảnh</span>
-            </div>
-            <p className="text-xs leading-relaxed pl-6">
-              Hình ảnh nền được thiết kế và cung cấp bởi các tác giả trên Freepik (denamorado).
             </p>
           </div>
 
