@@ -88,8 +88,16 @@ const PRESET_TRACKS: {
     target: { type: "video", id: "KLujsdZY3xU" },
   },
   {
+    name: "Lofi Girl (Live 24/7)",
+    target: { type: "video", id: "5qap5aO4i9A" },
+  },
+  {
     name: "Lofi Study (Playlist)",
-    target: { type: "playlist", id: "PL-cmSQwv40w_LbihlJXO_s01dDVB1LBz5" },
+    target: { type: "playlist", id: "PLofht4PTcKYnaH8w5olJCI-wUVxuoMHqM" },
+  },
+  {
+    name: "1 A.M Study Session",
+    target: { type: "video", id: "lTRiuFIWV54" },
   },
   {
     name: "Piano Thư Giãn",
