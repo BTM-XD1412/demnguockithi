@@ -133,7 +133,7 @@ export function ExamDashboard({ initialQuote }: ExamDashboardProps) {
         )}
 
         {/* Danh ngôn tự động xoay trượt */}
-        <QuoteCard initialQuote={initialQuote} autoRotateInterval={8000} />
+        <QuoteCard initialQuote={initialQuote} autoRotateInterval={5000} />
 
         {/* Thanh tiến trình năm học */}
         <SchoolProgress />

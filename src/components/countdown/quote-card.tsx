@@ -9,12 +9,12 @@ import { cn } from "@/lib/utils";
 
 interface QuoteCardProps {
   initialQuote?: QuoteItem;
-  autoRotateInterval?: number; // default 8000ms
+  autoRotateInterval?: number; // default 5000ms (5 giây)
 }
 
 export function QuoteCard({
   initialQuote,
-  autoRotateInterval = 8000,
+  autoRotateInterval = 5000,
 }: QuoteCardProps) {
   const [quote, setQuote] = useState<QuoteItem>(() => initialQuote || getRandomQuote());
   const [slideState, setSlideState] = useState<"idle" | "exit" | "enter">("idle");
