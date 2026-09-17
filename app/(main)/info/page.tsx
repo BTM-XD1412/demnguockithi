@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { BackgroundBackdrop } from "@/components/countdown/background-backdrop";
+import { ExamScheduleCard } from "@/components/countdown/exam-schedule-card";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -69,6 +70,8 @@ export default function InfoPage() {
               </p>
             </CardContent>
           </Card>
+
+          <ExamScheduleCard />
 
           <Card className="border-border bg-card/80">
             <CardHeader className="pb-3">
