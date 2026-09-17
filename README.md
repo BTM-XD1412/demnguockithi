@@ -14,12 +14,9 @@
   - Bấm chọn trực tiếp từng môn trên lịch để chuyển đối tượng đếm ngược trên bảng chính.
 - 📊 **Thanh tiến trình năm học**:
   - Tự động tính toán tỷ lệ % thời gian đã trôi qua từ ngày khai giảng (`05/09/2026`) đến ngày thi THPT 2027.
-- 💬 **Danh ngôn truyền cảm hứng tự động xoay**:
-  - Hiệu ứng trượt dọc (*slide transition*) kết hợp làm mờ (*fade*) mượt mà.
-  - Tự động chuyển câu sau mỗi 5 giây, tự động tạm dừng khi rê chuột (*hover*) để học sinh dễ dàng đọc trọn vẹn câu nói.
 - 🍅 **Đồng hồ Pomodoro tích hợp**:
   - Đồng hồ số lớn phong cách tối giản, hỗ trợ các cấu hình phổ biến: `25/5`, `50/10`, `15/3`, `45/15` hoặc tùy chỉnh số phút bất kỳ.
-  - Chuông báo âm thanh nhẹ nhàng bằng **Web Audio API** (hoạt động offline, không cần tải file âm thanh ngoài).
+  - Chuông báo âm thanh nhẹ nhàng.
   - Tùy chọn tự động chuyển phiên nghỉ và bảng thống kê tổng số phiên / số phút đã học.
 - 🎧 **Trình nghe nhạc thư giãn (YouTube Player)**:
   - Cho phép dán thẳng link Video hoặc **Playlist YouTube** bất kỳ (`youtube.com/playlist?list=...`).
@@ -198,6 +195,8 @@ demnguockithi/
 ## 📄 Bản Quyền & Giấy Phép
 
 Dự án được xây dựng và chia sẻ với mục đích phi thương mại hỗ trợ các bạn học sinh trong quá trình ôn luyện cho kỳ thi tốt nghiệp THPT.
+Bạn có thể sử dụng các công cụ AI để tự biến nó thành sản phẩm của chính mình nhưng không được sử dụng vào mục đích thương mại.
 
 - Phát triển bởi: **[BTM-XD1412](https://github.com/BTM-XD1412)**
 - Mọi đóng góp ý kiến hoặc phản hồi xin gửi về email: `butsimptachyon@btmxd1412.dev`
+- Dự án có sử dụng hỗ trợ từ AI Agents.
