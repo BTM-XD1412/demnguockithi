@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { InfoDialog } from "@/components/countdown/info-dialog";
-import { Github, Info } from "lucide-react";
+import { Info } from "lucide-react";
 import { SITE_METADATA } from "@/lib/constants";
 
 export function SiteFooter() {
@@ -23,23 +23,6 @@ export function SiteFooter() {
               <span>Bản quyền & Nguồn</span>
             </Button>
           </InfoDialog>
-
-          <Button
-            variant="ghost"
-            size="sm"
-            asChild
-            className="gap-1.5 h-8 px-2.5 text-xs text-muted-foreground hover:text-foreground"
-          >
-            <Link
-              href={SITE_METADATA.githubRepo}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub Repository"
-            >
-              <Github className="h-3.5 w-3.5" />
-              <span>GitHub</span>
-            </Link>
-          </Button>
         </div>
       </div>
     </footer>
