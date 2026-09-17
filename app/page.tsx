@@ -3,6 +3,7 @@ import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { BackgroundBackdrop } from "@/components/countdown/background-backdrop";
 import { ExamDashboard } from "@/components/countdown/exam-dashboard";
+import { StudyToolsSection } from "@/components/countdown/study-tools-section";
 import { getRandomQuote } from "@/lib/quotes";
 
 export const metadata: Metadata = {
@@ -18,8 +19,9 @@ export default function HomePage() {
       <BackgroundBackdrop />
       <SiteHeader />
 
-      <main className="flex-1 flex flex-col justify-center max-w-5xl mx-auto w-full px-3 sm:px-4 py-6 sm:py-8 md:py-10">
+      <main className="flex-1 flex flex-col justify-center max-w-5xl mx-auto w-full px-3 sm:px-4 py-6 sm:py-8 md:py-10 space-y-6 sm:space-y-8">
         <ExamDashboard initialQuote={initialQuote} />
+        <StudyToolsSection />
       </main>
 
       <SiteFooter />
