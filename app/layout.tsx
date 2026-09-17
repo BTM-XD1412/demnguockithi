@@ -33,7 +33,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://anhkhoatqt11.github.io/demnguockithi"),
+  metadataBase: new URL("https://thptqg.btmxd1412.dev"),
   title: {
     default: SITE_METADATA.title,
     template: `%s | ${SITE_METADATA.title}`,
@@ -69,14 +69,21 @@ export const metadata: Metadata = {
     description: SITE_METADATA.description,
     type: "website",
     locale: "vi_VN",
+    siteName: SITE_METADATA.title,
     images: [
       {
-        url: "/images/background3.png",
+        url: "/images/background2.png",
         width: 1200,
         height: 630,
         alt: SITE_METADATA.title,
       },
     ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE_METADATA.title,
+    description: SITE_METADATA.description,
+    images: ["/images/background2.png"],
   },
 };
 
