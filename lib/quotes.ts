@@ -2,6 +2,7 @@ export interface QuoteItem {
   id: number;
   text: string;
   author?: string;
+  translation?: string;
 }
 
 export const QUOTES: QuoteItem[] = [
@@ -9,6 +10,7 @@ export const QUOTES: QuoteItem[] = [
     id: 1,
     text: "Tri thức là sức mạnh.",
     author: "Francis Bacon",
+    translation: "Knowledge is power.",
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ export const QUOTES: QuoteItem[] = [
     id: 4,
     text: "Nghị lực và bền bỉ có thể giúp bạn chinh phục mọi thứ.",
     author: "Benjamin Franklin",
+    translation: "Energy and persistence conquer all things.",
   },
   {
     id: 5,
@@ -53,8 +56,9 @@ export const QUOTES: QuoteItem[] = [
   },
   {
     id: 11,
-    text: "Học, học nữa, học mãi.",
-    author: "V.I. Lenin",
+    text: "Học, học nữa, học mãi",
+    author: "Hồ Chí Minh",
+    translation: "Study, study more, study forever",
   },
   {
     id: 12,
