@@ -57,11 +57,14 @@ pnpm install
 
 # Hoặc sử dụng npm
 npm install
+
+# Yarn
+yarn install
 ```
 
 ### 4. Khởi chạy môi trường phát triển (Development)
 ```bash
-pnpm dev
+pnpm run dev
 # hoặc npm run dev
 ```
 
@@ -69,9 +72,9 @@ Mở trình duyệt và truy cập: [http://localhost:3000](http://localhost:300
 
 ### 5. Biên dịch sản phẩm (Production Build)
 ```bash
-pnpm build
-pnpm start
-# hoặc npm run build && npm start
+pnpm run build
+pnpm run start
+# hoặc npm run build && npm run start
 ```
 
 ---
