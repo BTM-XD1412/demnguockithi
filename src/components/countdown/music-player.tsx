@@ -83,31 +83,31 @@ const PRESET_TRACKS: {
   name: string;
   target: MediaTarget;
 }[] = [
-  {
-    name: "Study With Me",
-    target: { type: "video", id: "KLujsdZY3xU" },
-  },
-  {
-    name: "Lofi Girl (Live 24/7)",
-    target: { type: "video", id: "5qap5aO4i9A" },
-  },
-  {
-    name: "Lofi Study (Playlist)",
-    target: { type: "playlist", id: "PLofht4PTcKYnaH8w5olJCI-wUVxuoMHqM" },
-  },
-  {
-    name: "1 A.M Study Session",
-    target: { type: "video", id: "lTRiuFIWV54" },
-  },
-  {
-    name: "Piano Thư Giãn",
-    target: { type: "video", id: "4xDzrJKXOOY" },
-  },
-  {
-    name: "Tiếng Mưa & Sấm",
-    target: { type: "video", id: "mPZkdNFkNps" },
-  },
-];
+    {
+      name: "Study With Me",
+      target: { type: "video", id: "KLujsdZY3xU" },
+    },
+    {
+      name: "Lofi Girl (Live 24/7)",
+      target: { type: "video", id: "5qap5aO4i9A" },
+    },
+    {
+      name: "Aura Studying",
+      target: { type: "video", id: "AYeLloU1qjI" },
+    },
+    {
+      name: "1 A.M Study Session",
+      target: { type: "video", id: "lTRiuFIWV54" },
+    },
+    {
+      name: "Piano Thư Giãn",
+      target: { type: "video", id: "4xDzrJKXOOY" },
+    },
+    {
+      name: "Tiếng Mưa & Sấm",
+      target: { type: "video", id: "mPZkdNFkNps" },
+    },
+  ];
 
 export function MusicPlayer() {
   const [inputUrl, setInputUrl] = useState("");
@@ -224,11 +224,10 @@ export function MusicPlayer() {
                     key={track.name}
                     type="button"
                     onClick={() => setCurrentMedia(track.target)}
-                    className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium border transition-colors ${
-                      active
-                        ? "bg-indigo-600/15 text-indigo-600 dark:text-indigo-400 border-indigo-500/40"
-                        : "border-border/70 text-muted-foreground hover:text-foreground hover:bg-muted/40"
-                    }`}
+                    className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium border transition-colors ${active
+                      ? "bg-indigo-600/15 text-indigo-600 dark:text-indigo-400 border-indigo-500/40"
+                      : "border-border/70 text-muted-foreground hover:text-foreground hover:bg-muted/40"
+                      }`}
                   >
                     {track.target.type === "playlist" ? (
                       <ListMusic className="h-3 w-3" />
